@@ -1,0 +1,63 @@
+2025-11-08 23:04:19,288 INFO [MainProcess] Enqueued job job1
+2025-11-08 23:04:35,107 INFO [MainProcess] Enqueued job job2
+2025-11-08 23:04:47,457 INFO [MainProcess] Enqueued job job3
+2025-11-08 23:05:05,706 INFO [MainProcess] Started 2 workers. PIDs: [17616, 8296]
+2025-11-08 23:05:05,829 INFO [worker-1] Worker process worker-1 starting (pid=17616)
+2025-11-08 23:05:05,840 INFO [worker-2] Worker process worker-2 starting (pid=8296)
+2025-11-08 23:05:05,845 INFO [worker-1] [worker-1] picked job1
+2025-11-08 23:05:05,856 INFO [worker-2] [worker-2] picked job2
+2025-11-08 23:05:05,886 INFO [worker-1] [worker-1] completed job1
+2025-11-08 23:05:05,895 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:05:05,924 WARNING [worker-1] [worker-1] job job3 failed; retry in 3s (attempt 1/5)
+2025-11-08 23:05:08,205 INFO [worker-2] [worker-2] completed job2
+2025-11-08 23:05:08,952 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:05:08,976 WARNING [worker-1] [worker-1] job job3 failed; retry in 9s (attempt 2/5)
+2025-11-08 23:05:18,023 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:05:18,045 WARNING [worker-1] [worker-1] job job3 failed; retry in 27s (attempt 3/5)
+2025-11-08 23:08:54,040 INFO [MainProcess] Enqueued job job1
+2025-11-08 23:09:05,065 INFO [MainProcess] Enqueued job job2
+2025-11-08 23:09:14,777 INFO [MainProcess] Enqueued job job3
+2025-11-08 23:09:43,879 INFO [MainProcess] Started 2 workers. PIDs: [24580, 23328]
+2025-11-08 23:09:44,007 INFO [worker-1] Worker process worker-1 starting (pid=24580)
+2025-11-08 23:09:44,012 INFO [worker-2] Worker process worker-2 starting (pid=23328)
+2025-11-08 23:09:44,038 INFO [worker-1] [worker-1] picked job1
+2025-11-08 23:09:44,058 INFO [worker-2] [worker-2] picked job2
+2025-11-08 23:09:44,076 INFO [worker-1] [worker-1] completed job1
+2025-11-08 23:09:44,083 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:09:44,115 WARNING [worker-1] [worker-1] job job3 failed; retry in 3s (attempt 1/3)
+2025-11-08 23:09:47,140 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:09:47,162 INFO [worker-2] [worker-2] completed job2
+2025-11-08 23:09:47,173 WARNING [worker-1] [worker-1] job job3 failed; retry in 9s (attempt 2/3)
+2025-11-08 23:09:56,235 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:09:56,259 WARNING [worker-1] [worker-1] job job3 failed; retry in 27s (attempt 3/3)
+2025-11-08 23:10:59,332 INFO [MainProcess] Requested workers to stop (control file removed)
+2025-11-08 23:11:37,009 INFO [MainProcess] Enqueued job job3
+2025-11-08 23:11:45,749 INFO [MainProcess] Started 2 workers. PIDs: [28852, 10816]
+2025-11-08 23:11:45,865 INFO [worker-1] Worker process worker-1 starting (pid=28852)
+2025-11-08 23:11:45,873 INFO [worker-2] Worker process worker-2 starting (pid=10816)
+2025-11-08 23:11:45,914 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:11:45,950 WARNING [worker-1] [worker-1] job job3 failed; retry in 3s (attempt 1/3)
+2025-11-08 23:11:48,968 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:11:48,990 WARNING [worker-1] [worker-1] job job3 failed; retry in 9s (attempt 2/3)
+2025-11-08 23:11:58,028 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:11:58,053 WARNING [worker-1] [worker-1] job job3 failed; retry in 27s (attempt 3/3)
+2025-11-08 23:12:25,080 INFO [worker-2] [worker-2] picked job3
+2025-11-08 23:12:25,107 WARNING [worker-2] [worker-2] job job3 moved to DLQ
+2025-11-08 23:15:40,618 INFO [MainProcess] Enqueued job job1
+2025-11-08 23:15:49,719 INFO [MainProcess] Enqueued job job2
+2025-11-08 23:15:59,814 INFO [MainProcess] Enqueued job job3
+2025-11-08 23:16:15,968 INFO [MainProcess] Started 2 workers. PIDs: [13072, 23704]
+2025-11-08 23:16:16,090 INFO [worker-1] Worker process worker-1 starting (pid=13072)
+2025-11-08 23:16:16,090 INFO [worker-2] Worker process worker-2 starting (pid=23704)
+2025-11-08 23:16:16,117 INFO [worker-1] [worker-1] picked job1
+2025-11-08 23:16:16,139 INFO [worker-2] [worker-2] picked job2
+2025-11-08 23:16:16,160 INFO [worker-1] [worker-1] completed job1
+2025-11-08 23:16:16,170 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:16:16,197 WARNING [worker-1] [worker-1] job job3 failed; retry in 3s (attempt 1/3)
+2025-11-08 23:16:19,151 INFO [worker-2] [worker-2] completed job2
+2025-11-08 23:16:19,215 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:16:19,244 WARNING [worker-1] [worker-1] job job3 failed; retry in 9s (attempt 2/3)
+2025-11-08 23:16:28,292 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:16:28,315 WARNING [worker-1] [worker-1] job job3 failed; retry in 27s (attempt 3/3)
+2025-11-08 23:16:55,419 INFO [worker-1] [worker-1] picked job3
+2025-11-08 23:16:55,443 WARNING [worker-1] [worker-1] job job3 moved to DLQ
